@@ -1,0 +1,2403 @@
+CRITICAL - 2026-03-18 00:35:17 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url('assets"
+[Method: GET, Route: owner/base_url%28%27assets/logo.png%27%29]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(219): CodeIgniter\Router\Router->checkDisallowedChars('owner/base_url(\'assets/logo.png\')')
+ 2 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('owner/base_url(\'assets/logo.png\')')
+ 3 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 01:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 01:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 01:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 01:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 01:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 01:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 01:05:44 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 01:05:44 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 01:05:44 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 01:05:44 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 01:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 01:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 01:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 10:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 10:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 10:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 10:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 10:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 10:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 10:55:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\admin\dashboard.php on line 256.
+ 1 APPPATH\Views\admin\dashboard.php(256): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(69): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 10:55:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\admin\dashboard.php on line 256.
+ 1 APPPATH\Views\admin\dashboard.php(256): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(69): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 10:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 11:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 11:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 11:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 11:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 11:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 11:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 11:32:19 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 11:32:19 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 11:32:19 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 11:32:19 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 11:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 11:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 11:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 11:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 13:22:46 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:22:46 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:22:46 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:22:46 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 13:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 13:23:48 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\admin\dashboard.php on line 256.
+ 1 APPPATH\Views\admin\dashboard.php(256): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(69): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:23:48 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\admin\dashboard.php on line 256.
+ 1 APPPATH\Views\admin\dashboard.php(256): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(69): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 13:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 13:23:53 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\penjualan\index.php on line 64.
+ 1 APPPATH\Views\penjualan\index.php(64): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penjualan/index', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(33): view('penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:23:53 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\penjualan\index.php on line 64.
+ 1 APPPATH\Views\penjualan\index.php(64): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penjualan/index', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(33): view('penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:23:53 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\penjualan\index.php on line 64.
+ 1 APPPATH\Views\penjualan\index.php(64): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penjualan/index', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(33): view('penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:23:53 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\penjualan\index.php on line 64.
+ 1 APPPATH\Views\penjualan\index.php(64): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penjualan/index', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(33): view('penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:23:53 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\penjualan\index.php on line 64.
+ 1 APPPATH\Views\penjualan\index.php(64): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penjualan/index', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(33): view('penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 13:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 13:23:56 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\admin\dashboard.php on line 256.
+ 1 APPPATH\Views\admin\dashboard.php(256): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(69): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:23:56 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\admin\dashboard.php on line 256.
+ 1 APPPATH\Views\admin\dashboard.php(256): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(69): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 13:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 13:24:28 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\admin\dashboard.php on line 256.
+ 1 APPPATH\Views\admin\dashboard.php(256): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(69): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:24:28 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\admin\dashboard.php on line 256.
+ 1 APPPATH\Views\admin\dashboard.php(256): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(69): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 13:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 13:28:13 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\admin\dashboard.php on line 256.
+ 1 APPPATH\Views\admin\dashboard.php(256): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(69): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:28:13 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\admin\dashboard.php on line 256.
+ 1 APPPATH\Views\admin\dashboard.php(256): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(69): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 13:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 13:36:09 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:36:09 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:36:09 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:36:09 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 13:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 13:50:10 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:50:10 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:50:10 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 13:50:10 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 13:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 13:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 14:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:02:49 --> Table 'jamu_franchise.detail_penjualan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:02:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.detail_penjualan' doesn't exist
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:02:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.detail_penjualan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:02:49 --> [Caused by] mysqli_sql_exception: Table 'jamu_franchise.detail_penjualan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:02:51 --> Table 'jamu_franchise.detail_penjualan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:02:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.detail_penjualan' doesn't exist
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:02:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.detail_penjualan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:02:51 --> [Caused by] mysqli_sql_exception: Table 'jamu_franchise.detail_penjualan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:07:23 --> Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:07:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:07:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:07:23 --> [Caused by] mysqli_sql_exception: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:07:25 --> Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:07:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:07:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:07:25 --> [Caused by] mysqli_sql_exception: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = \'3\'
+GROUP BY `d`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_produk`, SUM(d.qty) as total
+FROM `detail_penjualan` `d`
+JOIN `produk` `p` ON `p`.`id_produk` = `d`.`id_produk`
+JOIN `penjualan` `pj` ON `pj`.`id_penjualan` = `d`.`id_penjualan`
+WHERE `pj`.`id_franchise` = :pj.id_franchise:
+GROUP BY `d`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:14:19 --> Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'field list'
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:19 --> [Caused by] mysqli_sql_exception: Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:14:21 --> Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'field list'
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:21 --> [Caused by] mysqli_sql_exception: Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:14:53 --> Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'field list'
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:53 --> [Caused by] mysqli_sql_exception: Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:14:54 --> Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'field list'
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:54 --> [Caused by] mysqli_sql_exception: Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:14:54 --> Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'field list'
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:14:54 --> [Caused by] mysqli_sql_exception: Unknown column 'produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = \'3\'
+GROUP BY `produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`, COUNT(*) as total
+FROM `penjualan`
+WHERE `id_franchise` = :id_franchise:
+GROUP BY `produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:19:03 --> Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:03 --> [Caused by] mysqli_sql_exception: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:19:04 --> Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:04 --> [Caused by] mysqli_sql_exception: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:19:04 --> Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:04 --> [Caused by] mysqli_sql_exception: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:19:04 --> Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:04 --> [Caused by] mysqli_sql_exception: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:19:05 --> Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:05 --> [Caused by] mysqli_sql_exception: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-18 14:19:05 --> Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+[Method: GET, Route: mitra/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 2 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 4 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+CRITICAL - 2026-03-18 14:19:05 --> [Caused by] mysqli_sql_exception: Table 'jamu_franchise.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = \'3\'
+GROUP BY `p`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pr`.`nama_produk`, COUNT(*) as total
+FROM `penjualan` `p`
+JOIN `produk` `pr` ON `pr`.`id_produk` = `p`.`id_produk`
+WHERE `p`.`id_franchise` = :p.id_franchise:
+GROUP BY `p`.`id_produk`', [...], false)
+ 5 APPPATH\Controllers\Mitra\Dashboard.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 14:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 22:41:55 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 22:41:55 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 22:41:55 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 22:41:55 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 22:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 22:42:11 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 22:42:11 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 22:42:11 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+WARNING - 2026-03-18 22:42:11 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\mitra\penjualan\index.php on line 27.
+ 1 APPPATH\Views\mitra\penjualan\index.php(27): number_format(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(20): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 22:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-18 22:43:47 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\admin\dashboard.php on line 256.
+ 1 APPPATH\Views\admin\dashboard.php(256): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(69): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 22:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 22:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-18 23:29:12 --> ErrorException: Undefined array key "nama_produk"
+[Method: GET, Route: mitra/penjualan]
+in APPPATH\Views\mitra\penjualan\index.php on line 24.
+ 1 APPPATH\Views\mitra\penjualan\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_produk"', 'C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(19): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 23:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-18 23:29:26 --> ErrorException: Undefined array key "nama_produk"
+[Method: GET, Route: mitra/penjualan]
+in APPPATH\Views\mitra\penjualan\index.php on line 24.
+ 1 APPPATH\Views\mitra\penjualan\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_produk"', 'C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(19): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 23:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-18 23:40:06 --> ErrorException: Undefined array key "nama_produk"
+[Method: GET, Route: mitra/penjualan]
+in APPPATH\Views\mitra\penjualan\index.php on line 24.
+ 1 APPPATH\Views\mitra\penjualan\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_produk"', 'C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(19): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 23:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-18 23:47:28 --> ErrorException: Undefined array key "nama_produk"
+[Method: GET, Route: mitra/penjualan]
+in APPPATH\Views\mitra\penjualan\index.php on line 24.
+ 1 APPPATH\Views\mitra\penjualan\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_produk"', 'C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(19): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 23:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-18 23:50:41 --> ErrorException: Undefined array key "nama_produk"
+[Method: GET, Route: mitra/penjualan]
+in APPPATH\Views\mitra\penjualan\index.php on line 24.
+ 1 APPPATH\Views\mitra\penjualan\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_produk"', 'C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(19): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 23:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-18 23:51:41 --> ErrorException: Undefined array key "jumlah"
+[Method: GET, Route: mitra/penjualan]
+in APPPATH\Views\mitra\penjualan\index.php on line 26.
+ 1 APPPATH\Views\mitra\penjualan\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(22): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 23:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-18 23:51:42 --> ErrorException: Undefined array key "jumlah"
+[Method: GET, Route: mitra/penjualan]
+in APPPATH\Views\mitra\penjualan\index.php on line 26.
+ 1 APPPATH\Views\mitra\penjualan\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\jamu-monitoring\\app\\Views\\mitra\\penjualan\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mitra/penjualan/index', [], true)
+ 5 APPPATH\Controllers\Mitra\Penjualan.php(22): view('mitra/penjualan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mitra\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\jamu-monitoring\\public\\index.php')
+DEBUG - 2026-03-18 23:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-18 23:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
