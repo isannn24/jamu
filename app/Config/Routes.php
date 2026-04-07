@@ -65,6 +65,15 @@ $routes->group('admin', ['filter' => 'role:admin'], function($routes) {
     $routes->get('pemesanan/kirim/(:num)', 'Admin\Pemesanan::kirim/$1');
     $routes->get('pemesanan/selesai/(:num)', 'Admin\Pemesanan::selesai/$1');
     $routes->get('pemesanan/tolak/(:num)', 'Admin\Pemesanan::tolak/$1');
+
+    // Bagi Hasil
+    $routes->get('bagi_hasil', 'Admin\BagiHasil::index');
+
+    // Manajemen User Mitra
+    $routes->get('user', 'Admin\User::index');
+    $routes->get('user/tambah', 'Admin\User::tambah');
+    $routes->post('user/simpan', 'Admin\User::simpan');
+    $routes->get('user/hapus/(:num)', 'Admin\User::hapus/$1');
 });
 
 
@@ -94,6 +103,8 @@ $routes->group('mitra', ['filter' => 'role:mitra'], function($routes) {
     // Rekap harian
     $routes->get('rekap-harian', 'Mitra\RekapHarian::index');
 
+    // Bagi Hasil
+    $routes->get('bagi_hasil', 'Mitra\BagiHasil::index');
 });
 
 

@@ -27,7 +27,7 @@ class Dashboard extends BaseController
             ->get()
             ->getRow();
 
-        $data['total_omzet'] = $omzet->total ?? 0;
+        $data['total_omzet'] = $omzet ? ($omzet->total ?? 0) : 0;
         $data['bagi_hasil_pusat'] = $data['total_omzet'] * 0.2;
         $data['bagi_hasil_mitra'] = $data['total_omzet'] * 0.8;
 

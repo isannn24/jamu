@@ -12,12 +12,13 @@ class Dashboard extends BaseController
         $id_franchise = session()->get('id_franchise');
 
         // TOTAL PENJUALAN
-        $total_penjualan = $db->table('penjualan')
+        $row_total = $db->table('penjualan')
             ->selectSum('total')
             ->where('id_franchise', $id_franchise)
             ->get()
-            ->getRow()
-            ->total ?? 0;
+            ->getRow();
+        
+        $total_penjualan = $row_total ? ($row_total->total ?? 0) : 0;
 
         // TOTAL PESANAN
         $total_pesanan = $db->table('pemesanan_bahan')
@@ -36,14 +37,14 @@ class Dashboard extends BaseController
             ->where('pj.id_franchise', $id_franchise)
             ->groupBy('d.id_produk')
             ->get()
-            ->getResult();
+            ->getResultArray();
 
         $namaProduk = [];
         $totalProduk = [];
 
         foreach ($produk as $row) {
-            $namaProduk[] = $row->nama_produk;
-            $totalProduk[] = (int)$row->total;
+            $namaProduk[] = $row['nama_produk'];
+            $totalProduk[] = (int)$row['total'];
         }
 
         // GRAFIK OMSET BULANAN
@@ -53,7 +54,7 @@ class Dashboard extends BaseController
             ->groupBy("DATE_FORMAT(tanggal,'%Y-%m')")
             ->orderBy('bulan','ASC')
             ->get()
-            ->getResult();
+            ->getResultArray();
 
         $bulan = array_column($grafik, 'bulan');
         $total = array_column($grafik, 'total');

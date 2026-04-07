@@ -1,10 +1,10 @@
-<?= $this->extend('owner/layout/template') ?>
+<?= $this->extend('mitra/layout/template') ?>
 <?= $this->section('content') ?>
 
 <div class="d-flex justify-content-between align-items-center mb-4 animate__animated animate__fadeIn">
     <div>
-        <h3 class="fw-bold mb-0">Laporan Bagi Hasil Seluruh Cabang</h3>
-        <p class="text-muted">Pantau pembagian keuntungan pusat dan mitra secara transparan</p>
+        <h3 class="fw-bold mb-0">Rekap Bagi Hasil Bulanan</h3>
+        <p class="text-muted">Pantau pembagian keuntungan setiap bulan</p>
     </div>
 </div>
 
@@ -22,7 +22,7 @@
                 </button>
             </div>
             <div class="col-md-auto">
-                <a href="<?= base_url('owner/bagi_hasil') ?>" class="btn btn-light px-4 border">
+                <a href="<?= base_url('mitra/bagi_hasil') ?>" class="btn btn-light px-4 border">
                     <i class="bi bi-arrow-clockwise me-2"></i> Reset
                 </a>
             </div>
@@ -39,7 +39,6 @@
                     <tr>
                         <th class="ps-4 py-3 text-uppercase small fw-bold text-muted">No</th>
                         <th class="py-3 text-uppercase small fw-bold text-muted">Periode</th>
-                        <th class="py-3 text-uppercase small fw-bold text-muted">Cabang</th>
                         <th class="py-3 text-uppercase small fw-bold text-muted">Total Omzet</th>
                         <th class="py-3 text-uppercase small fw-bold text-muted">Bagian Mitra (80%)</th>
                         <th class="py-3 text-uppercase small fw-bold text-muted">Bagian Pusat (20%)</th>
@@ -48,7 +47,7 @@
                 <tbody>
                     <?php if(empty($bagi_hasil)){ ?>
                         <tr>
-                            <td colspan="6" class="text-center py-5 text-muted">
+                            <td colspan="5" class="text-center py-5 text-muted">
                                 <i class="bi bi-inbox fs-1 d-block mb-3 opacity-25"></i>
                                 Belum ada data rekap bagi hasil untuk kriteria ini
                             </td>
@@ -63,10 +62,9 @@
                                     <i class="bi bi-calendar-event me-2 text-primary"></i> <?= $b['periode'] ?>
                                 </span>
                             </td>
-                            <td class="fw-semibold text-dark"><?= $b['nama_cabang'] ?></td>
                             <td class="fw-bold">Rp <?= number_format($b['total_omset'],0,',','.') ?></td>
                             <td class="text-primary fw-bold">Rp <?= number_format($b['bagian_mitra'],0,',','.') ?></td>
-                            <td class="text-success fw-bold">Rp <?= number_format($b['bagi_hasil_pusat'],0,',','.') ?></td>
+                            <td class="text-secondary fw-bold">Rp <?= number_format($b['bagi_hasil_pusat'],0,',','.') ?></td>
                         </tr>
                     <?php } ?>
                 </tbody>

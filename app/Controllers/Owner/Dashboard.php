@@ -11,12 +11,12 @@ class Dashboard extends BaseController
         $db = \Config\Database::connect();
 
         // TOTAL OMSET
-        $totalOmset = $db->table('penjualan')
+        $omzet = $db->table('penjualan')
             ->selectSum('total')
             ->get()
             ->getRow();
 
-        $totalOmset = $totalOmset->total ?? 0;
+        $totalOmset = $omzet ? ($omzet->total ?? 0) : 0;
         $bagiHasilPusat = $totalOmset * 0.2;
         $bagiHasilMitra = $totalOmset * 0.8;
 
@@ -34,31 +34,31 @@ class Dashboard extends BaseController
             ->groupBy("DATE_FORMAT(tanggal,'%Y-%m')")
             ->orderBy("bulan", "ASC")
             ->get()
-            ->getResult();
+            ->getResultArray();
 
         $bulan = [];
         $total = [];
 
         foreach ($grafik as $row) {
-            $bulan[] = $row->bulan;
-            $total[] = (int)$row->total;
+            $bulan[] = $row['bulan'];
+            $total[] = (int)$row['total'];
         }
 
         // GRAFIK PER CABANG + RANKING
         $cabang = $db->table('penjualan p')
-            ->select('f.nama_cabang, SUM(p.total) as total')
+            ->select('f.nama_cabang, SUM(p.total) as total_penjualan')
             ->join('franchise f', 'f.id_franchise = p.id_franchise')
             ->groupBy('p.id_franchise')
-            ->orderBy('total', 'DESC')
+            ->orderBy('total_penjualan', 'DESC')
             ->get()
-            ->getResult();
+            ->getResultArray();
 
         $namaCabang = [];
         $totalCabangChart = [];
 
         foreach ($cabang as $row) {
-            $namaCabang[] = $row->nama_cabang;
-            $totalCabangChart[] = (int)$row->total;
+            $namaCabang[] = $row['nama_cabang'];
+            $totalCabangChart[] = (int)$row['total_penjualan'];
         }
 
         return view('owner/dashboard', [
